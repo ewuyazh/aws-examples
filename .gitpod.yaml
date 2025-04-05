@@ -1,0 +1,11 @@
+image:
+  name: gitpod/workspace-full
+
+tasks:
+  - init: |
+      # Install AWS CLI globally
+      sudo apt-get update && sudo apt-get install -y awscli
+
+  - command: |
+      # Ensure AWS CLI is installed and print version
+      aws --version
