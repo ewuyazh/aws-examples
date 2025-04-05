@@ -16,3 +16,5 @@ tasks:
       
       # Return to the root of the workspace
       cd $THEIA_WORKSPACE_ROOT
+    init: |
+      echo "Gitpod workspace has started!"      
